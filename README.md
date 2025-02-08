@@ -1,22 +1,22 @@
-# ![WeWatch logo](https://raw.githubusercontent.com/orosmatthew/wewatch/master/github/logo.png)
+# ![WeWatch logo](https://raw.githubusercontent.com/harshwardhan5/wewatch/master/github/logo.png)
 
 <div>
-<img src="https://raw.githubusercontent.com/orosmatthew/wewatch/master/github/made-with-svelte.svg">
-<img src="https://raw.githubusercontent.com/orosmatthew/wewatch/master/github/open-source.svg">
+<img src="https://raw.githubusercontent.com/harshwardhan5/wewatch/master/github/made-with-svelte.svg">
+<img src="https://raw.githubusercontent.com/harshwardhan5/wewatch/master/github/open-source.svg">
 </div>
 
 WeWatch allows watching videos together in sync
 
-## [Try it here!](https://wewatch.click)
+## [Try it here!](https)
 
-![Screenshot](https://raw.githubusercontent.com/orosmatthew/wewatch/master/github/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/harshwardhan5/wewatch/master/github/screenshot.png)
 
 ## Features
 
 - 📽️ Watch YouTube videos in sync
 - 💬 Send messages
 - 👷 Able to be self-hosted
-- 🐳 [Docker image](https://hub.docker.com/r/orosmatthew/wewatch)
+- 🐳 [Docker image](https://hub.docker.com/r/harshwardhan5/wewatch)
 
 ## Tech Stack
 
@@ -42,7 +42,7 @@ services:
       POSTGRES_PASSWORD: password123
       POSTGRES_DB: wewatch_db
   wewatch:
-    image: orosmatthew/wewatch
+    image: harshwardhan5/wewatch
     depends_on:
       - db
     environment:
@@ -69,7 +69,7 @@ $ docker-compose up -d --build
 First create a `.env` file according to `.env.example`
 
 ```console
-$ git clone https://github.com/orosmatthew/wewatch
+$ git clone https://github.com/harshwardhan5/weWatch
 $ cd wewatch
 $ npm install
 $ npx prisma db push
@@ -82,7 +82,7 @@ $ node build
 Create a `.env` file according to `.env.example`
 
 ```console
-$ git clone https://github.com/orosmatthew/wewatch
+$ git clone https://github.com/harshwardhan5/weWatch
 $ cd wewatch
 $ npm install
 $ npx prisma db push
