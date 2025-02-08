@@ -35,7 +35,7 @@
 		"@vime/core": "^5.4.1",
 		"bootstrap": "^5.3.1",
 		"bootstrap-icons": "^1.10.5",
-		"dotenv": "^16.3.1",
+		"dotenv": "^16.4.7",
 		"portfinder": "^1.0.32",
 		"prisma": "^5.1.1",
 		"socket.io": "^4.7.2",
