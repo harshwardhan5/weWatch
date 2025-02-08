@@ -19,7 +19,7 @@
 				<a href="/"><span>We</span>Watch</a>
 			</h1>
 		</div>
-		<a href="https://github.com/orosmatthew/wewatch" target="_blank" class="gh">
+		<a href="https://github.com/harshwardhan5/wewatch" target="_blank" class="gh">
 			<i class="bi bi-github" />
 		</a>
 	</header>
